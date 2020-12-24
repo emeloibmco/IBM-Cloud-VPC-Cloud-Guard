@@ -8,7 +8,10 @@ CloudGuard Security Management es una plataforma que brinda y gestiona seguridad
 3. Acceso al CheckPoint CloudGuard.
 
 ## 1. Configuración de los parámetros del servicio.
-Dentro de los parámetros de despliegue encontramos los siguientes:
+
+![videoser](https://user-images.githubusercontent.com/60628267/103101329-1067d680-45e5-11eb-9a7f-667f4772ff0e.gif)
+
+Ingrese a su cuenta de IBM Cloud y en _Catálogo_ > _Software_ > _En el buscador ingrese CloudGuard_ y seleccione el servicio de Check Point CloudGuard IaaS Security Management, para el cual proporcione los siguientes parámetros de despliegue:
 - VPC_Region: Escriba la región donde se aprovisionarán la VPC, las redes y la VSI de Check Point.
 - VPC_Zone: La zona donde se aprovisionarán la VPC, las redes y Check Point VSI.
 - VPC_Name: Nombre de la VPC donde se aprovisionará la VSI de Check Point.
@@ -21,6 +24,9 @@ Dentro de los parámetros de despliegue encontramos los siguientes:
 ## 2. Espacio de trabajo.
 Una vez instalado el servicio tendrá acceso a un espacio de trabajo en Schematics.
 En donde ingresando a _Actividades_> _Ver registro_ podrá ver con detalle toda la plantilla de Terraform y en la parte inferior de esta un recuento del número de recursos creados junto con un mensaje en verde _(Done with the workspace action)_.
+
+
+<img width="959" alt="2" src="https://user-images.githubusercontent.com/60628267/103101130-19a47380-45e4-11eb-84d0-151888f71500.PNG">
 
 Ahora acceda a _Recursos_> _la URL de VPC-Name-fip_ donde ingresado al link lo redireccionará a las IP flotantes para VPC, busque la que fue creada con el nombre provisto. Mediante esa IP flotante será posible acceder al CheckPoint CloudGuard.
 
