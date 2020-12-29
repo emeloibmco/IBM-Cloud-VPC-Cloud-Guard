@@ -3,9 +3,11 @@
 CloudGuard Security Management es una plataforma que brinda y gestiona seguridad avanzada en la implemetación de protecciones para organizaciones y en nubes públicas, privadas e híbridas. Este servicio cuenta con un registro, monitoreo, correlación de eventos e informes dentro de la misma interfaz web, la cual tiene un tablero visual que brinda una visibilidad completa de la seguridad en toda la red, lo que ayuda a las organizaciones a monitorear el estado de los puntos de cumplimiento y mantenerse alerta ante posibles amenazas.
 
 ### Contenido.
-1. Configuración de los parámetros del servicio.
-2. Espacio de trabajo.
-3. Acceso al CheckPoint CloudGuard.
+
+1. [Configuración de los parámetros del servicio.](#1-configuración-de-los-parámetros-del-servicio)
+2. [Espacio de trabajo.](#2-espacio-de-trabajo)
+3. [Acceso al CheckPoint CloudGuard.](#3-acceso-al-checkpoint-cloudguard)
+
 
 ## 1. Configuración de los parámetros del servicio.
 
@@ -100,6 +102,10 @@ Ingrese las credenciales del servicio junto con la IP flotante, al hacer clic en
 Ya con esto tendrá acceso al tablero de configuraciones del CheckPoint y gestionar toda laseguridad que requiera.
 
 ![image](https://user-images.githubusercontent.com/60628267/103100289-e7911280-45df-11eb-99c2-f4d12bd7eb5c.png)
+
+## Autores
+
+IBM Cloud Tech Sales ☁️
 
 
 
