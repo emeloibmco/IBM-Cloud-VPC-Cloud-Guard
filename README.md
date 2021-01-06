@@ -61,6 +61,8 @@ Luego de esto se procede a ingresar a la consola web mediente la ip con el puert
 ```shell
 https://ip-flotante:puerto
 ```
+**Nota: El puerto caracteristico es el 443**
+
 <img width="900" alt="Captura33" src="https://user-images.githubusercontent.com/60628267/103098893-700cb480-45da-11eb-98ac-5e6a7fe8f08a.PNG">
 
 Saldrá una alerta que la conexión no es privada por lo que haremos clic en _Configuración avanzada_ y luego en _Acceder a ip-flotante (sitio no seguro)_ donde nos pedira las credenciales de acceso. El usuario y contraseña por defecto son _admin_ una vez adentro se recomienda cambiar estos parámetros de acceso.
